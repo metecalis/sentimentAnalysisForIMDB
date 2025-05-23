@@ -42,7 +42,7 @@ model.add(Dense(1, activation='sigmoid'))  # Çünkü binary sınıflama
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.summary()
 
-model.fit(padded, np.array(labels), epochs=30,batch_size=256,validation_split=0.2)
+model.fit(padded, np.array(labels), epochs=13,batch_size=256,validation_split=0.2)
 
 test_sentences = [
     "I absolutely loved this movie",
