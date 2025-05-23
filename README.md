@@ -18,7 +18,7 @@ Veriyi aşağıdaki Kaggle linkinden indirebilirsiniz:
 
 1. Projeyi klonlayın:
 
-\\\ash
+\\\bash
 git clone https://github.com/metecalis/sentimentAnalysisForIMDB.git
 cd sentimentAnalysisForIMDB
 \\\
@@ -27,12 +27,12 @@ cd sentimentAnalysisForIMDB
 
 3. Gerekli kütüphaneleri yükleyin:
 
-\\\ash
+\\\bash
 pip install -r requirements.txt
 \\\
 
 4. Python scriptlerini çalıştırın:
 
-\\\ash
+\\\bash
 python asAlways.py
 \\\
